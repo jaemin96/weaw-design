@@ -1,6 +1,6 @@
 {
   "name": "@weaw/design",
-  "private": false,
+  "private": true,
   "version": "0.0.0",
   "type": "module",
   "main": "./dist/weaw-design.umd.js",
