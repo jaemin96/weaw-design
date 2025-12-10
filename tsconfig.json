@@ -7,9 +7,9 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./src/*"],
-      "@shared/*": ["./src/shared/*"],
-      "@module/*": ["./src/module/*"]
+      "@/*": ["src/*"],
+      "@shared/*": ["src/shared/*"],
+      "@module/*": ["src/module/*"]
     }
   }
 }

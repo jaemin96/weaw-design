@@ -6,13 +6,14 @@ export default defineConfig({
   plugins: [react()],
   resolve: {
     alias: {
-      "@": path.resolve(__dirname, "src"),
-      "@shared": path.resolve(__dirname, "src/shared"),
-      "@module": path.resolve(__dirname, "src/module"),
-      "@/lib": path.resolve(__dirname, "src/lib"),
+      "@": path.resolve(__dirname, "./src"),
+      "@shared": path.resolve(__dirname, "./src/shared"),
+      "@module": path.resolve(__dirname, "./src/module"),
+      "@/lib": path.resolve(__dirname, "./src/lib"),
     },
   },
   build: {
+    sourcemap: false,
     lib: {
       entry: path.resolve(__dirname, "src/index.ts"),
       name: "weaw-design",
