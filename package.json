@@ -1,27 +1,6 @@
 {
   "name": "@weaw/design",
-  "version": "0.0.1",
-  "private": false,
-  "type": "module",
-
-  "main": "./dist/weaw-design.umd.js",
-  "module": "./dist/weaw-design.es.js",
-  "types": "./dist/index.d.ts",
-
-  "exports": {
-    ".": {
-      "import": "./dist/weaw-design.es.js",
-      "require": "./dist/weaw-design.umd.js",
-      "types": "./dist/index.d.ts"
-    }
-  },
-
-  "files": ["dist"],
-
-  "scripts": {
-    "build": "tsc -b && vite build",
-    "lint": "eslint ."
-  },
+  "private": true,
 
   "dependencies": {
     "@radix-ui/react-accordion": "^1.2.12",
@@ -47,22 +26,7 @@
     "sonner": "^2.0.7"
   },
 
-  "peerDependencies": {
-    "react": ">=18",
-    "react-dom": ">=18"
-  },
-
   "devDependencies": {
-    "@types/node": "^24.10.2",
-    "@types/react": "^19.2.5",
-    "@types/react-dom": "^19.2.3",
-
-    "typescript": "~5.9.3",
-    "vite": "^7.2.4",
-    "@vitejs/plugin-react": "^5.1.1",
-
-    "eslint": "^9.39.1",
-    "@eslint/js": "^9.39.1",
-    "typescript-eslint": "^8.46.4"
+    "typescript": "~5.9.3"
   }
 }
